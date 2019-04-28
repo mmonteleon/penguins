@@ -1,9 +1,26 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <!--Import Google Fonts-->
-        <style type="text/css">
-        @import url('https://fonts.googleapis.com/css?family=Gochi+Hand|Oswald');
+      
+      <style type="text/css">
+      @import url('https://fonts.googleapis.com/css?family=Gochi+Hand|Oswald');
+        * {
+          box-sizing: border-box;
+        }
+        
+        .img-container {
+          float: left;
+          width: 33.33%;
+          padding: 5px;
+        }
+        
+        .clearfix::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+    
+        
         body{
             background-color: powderblue;
         }
@@ -28,7 +45,7 @@
           padding: 25px 500px;
           margin:0px 0px; 
           
-          background-color: #F0EBF4;
+          background-color: #C1C8E4;
           font-size: 90px;
           text-align: center;
           color: red;
@@ -45,6 +62,7 @@
           color:grey;
           background-color: pink;
         }
+        
         
         h1{
             color: linen;
@@ -97,10 +115,37 @@
         </ul>
         
         <div class="blocky">
-          <p>Don't you just adore these amazing birds?<br>Yes!  I do too!</p>
+          <p>
+            Enjoy these photos of baby penguins that were stolen off the Internet.  If you need a little joy in your life, perform a Google image search for baby penguins.
+            <br>
+            <a href="https://www.google.com/search?rlz=1C5CHFA_enUS760US760&tbm=isch&q=baby+penguins&chips=q:baby+penguins,g_1:fluffy:YlgNsMTRLTs%3D&usg=AI4_-kQUy582Z7DhWBE_HoNGk2YlTl0YtQ&sa=X&ved=0ahUKEwj5lNrvtvHhAhUiWN8KHSg1BGkQ4lYIMCgF&biw=1440&bih=821&dpr=2">Fluffy baby penguin image search.</a>
+          </p>
         </div>
         
-        <img src="https://media1.tenor.com/images/ad8a6791f8362beffc5ea0b758ce343f/tenor.gif?itemid=13124058" alt="penguin" class="center"></img>
+        <div class="clearfix">
+          <div class="img-container">
+          <img src="https://www.azutura.com/media/catalog/product/cache/52/image/650x/040ec09b1e35df139433887a97daa66f/W/S/WS-42716_WP.jpg" alt="Baby Penguin 1" style="width:100%">
+          </div>
+          <div class="img-container">
+          <img src="https://i.dailymail.co.uk/i/pix/2012/11/23/article-0-162CF7E9000005DC-679_634x422.jpg" alt="Baby Penguin2" style="width:100%">
+          </div>
+          <div class="img-container">
+          <img src="http://ichef.bbci.co.uk/wwfeatures/wm/live/624_351/images/live/p0/3c/sc/p03csc8y.jpg" alt="Baby Penguin 3" style="width:100%">
+          </div>
+        </div>
+
+        <div class="clearfix">
+          <div class="img-container">
+          <img src="https://www.azutura.com/media/catalog/product/cache/52/image/650x/040ec09b1e35df139433887a97daa66f/W/S/WS-42716_WP.jpg" alt="Baby Penguin 1" style="width:100%">
+          </div>
+          <div class="img-container">
+          <img src="https://i.dailymail.co.uk/i/pix/2012/11/23/article-0-162CF7E9000005DC-679_634x422.jpg" alt="Baby Penguin2" style="width:100%">
+          </div>
+          <div class="img-container">
+          <img src="http://ichef.bbci.co.uk/wwfeatures/wm/live/624_351/images/live/p0/3c/sc/p03csc8y.jpg" alt="Baby Penguin 3" style="width:100%">
+          </div>
+        </div>
+        
 
         
         <footer>
